@@ -2,12 +2,12 @@
 
 ## Setup Instructions
 
-> We recommend using Node.js version 20+ for this course
+> I recommend using Node.js version 20+ for this course
 
 Clone this repository and install the dependencies:
 
 ```bash
-git clone https://github.com/stevekinney/introduction-to-testing.git
+git clone https://github.com/mrsMatheusRocha/Introduction-to-Testing.git
 cd introduction-to-testing
 npm install
 ```
