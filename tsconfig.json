@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "jsx": "react-jsx",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "examples/**/*.js",
+    "examples/**/*.svelte",
+    "examples/**/*.ts",
+    "examples/directory/src/user.jsx"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

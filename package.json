@@ -1,0 +1,48 @@
+{
+  "name": "testing-javascript",
+  "version": "1.0.0",
+  "description": "A set of examples and exercises for Steve Kinney's \"Introduction to Testing\" course for Frontend Masters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Please run the tests from inside one of the examples!\" && exit 0",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevekinney/testing-javascript.git"
+  },
+  "keywords": [
+    "testing",
+    "vitest",
+    "unit",
+    "testing",
+    "javascript",
+    "tutorial"
+  ],
+  "author": "Steve Kinney <hello@stevekinney.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevekinney/testing-javascript/issues"
+  },
+  "homepage": "https://github.com/stevekinney/testing-javascript#readme",
+  "workspaces": [
+    "packages/css-configuration",
+    "packages/get-error-message",
+    "examples/calculator",
+    "examples/task-list",
+    "examples/guess-the-number",
+    "examples/basic-math",
+    "examples/characters",
+    "examples/accident-counter",
+    "examples/scratchpad",
+    "examples/utility-belt",
+    "examples/strictly-speaking",
+    "examples/element-factory",
+    "examples/logjam",
+    "examples/directory"
+  ],
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6"
+  }
+}
